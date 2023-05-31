@@ -17,7 +17,7 @@ The Node.js Event Emitter is a powerful tool in Node.js that allows objects to e
 ## Usage
 
 ```javascript
-const EventEmitter = require('../build/eventEmitter');
+const EventEmitter = require('../dist/eventEmitter');
 
 // Create an instance of the event emitter
 const emitter = new EventEmitter();
