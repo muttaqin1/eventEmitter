@@ -4,5 +4,5 @@ module.exports = {
   displayName: 'Event-emitter functionality tests:',
   verbose: true,
   testEnvironment: 'node',
-  roots: ['<rootDir>/tests'],
+  roots: ['<rootDir>/src/__tests__'],
 };

@@ -1,14 +1,15 @@
 {
-  "name": "eventEmitter",
+  "name": "event-emitter",
   "version": "1.0.0",
   "description": "A toy implementation of eventEmitter",
-  "main": "index.js",
+  "main": "src/EventEmitter.js",
   "repository": "git@github.com:muttaqin1/eventEmitter.git",
   "author": "muttaqin1 <mdmuttaqin20@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest --testPathPattern=src/__tests__",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "29.5.2",
