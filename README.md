@@ -11,8 +11,6 @@ The Node.js Event Emitter is a powerful tool in Node.js that allows objects to e
 - **Event Registration**: You can register event listeners for specific events.
 - **Event Emission**: Emit events to trigger the execution of registered event listeners.
 - **Support for Multiple Listeners**: The implementation supports multiple listeners for the same event.
-- **Asynchronous Execution**: Event listeners are executed asynchronously, enabling non-blocking event handling.
-
 
 ## Usage
 
